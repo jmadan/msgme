@@ -2,6 +2,7 @@
 
 var actions = require("./actions");
 var response = require("ringo/jsgi/response");
+var mongo = require('ringo-mongodb');
 
 // Minimalistic request dispatcher in lieu of a proper framework
 exports.app = function(request) {
